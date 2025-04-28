@@ -38,7 +38,7 @@ namespace WinFormsApp276
 
         private void Form1_Load(object sender, EventArgs e)
         { 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 objects.Add(new MovingObject
                 {
